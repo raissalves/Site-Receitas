@@ -45,17 +45,27 @@
 
     <div class="container row">
         <div class="col s8 offset-s2">
-            <h3 style="text-align:center">Macarrão à carbonara</h3><hr>
+            <h3 style="text-align:center">Macarrão à carbonara</h3>
+            <div class="center-align">
+                <img src="../../../img/receitas/carbonara.png" height="300px">
+            </div>
+            <hr>
             <h6 style="text-align:center">Um prato tradicional italiano na sua mesa: essa receita de macarrão a
                 carbonara é um absurdo de gostosa!
                 Não há como resistir à combinação de macarrão, ovos e bacon! Um clássico da culinária que consegue ser
                 simples, fácil e delicioso!</h6><br>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-
+    
+    <div class="container row">
+        <div class="col s4 offset-s2">
+            <div class="center-align grey lighten-3">
+                <h6><i class="material-icons">alarm</i>15min    <i class="material-icons">local_dining</i>   Facil<i
+                    class="material-icons">monetization_on</i>   Custo Baixo </h6>
+            </div>
+        </div>
+    </div>
+    
     <div class="container row">
         <div class="col s8 offset-s2">
             <h5>Ingredientes (6 porções)</h5><br>
@@ -70,7 +80,7 @@
                         </td>
                         <td>
                             <label>
-                                <input type="checkbox" class="filled-in" id="queijo" name="queijo"/>
+                                <input type="checkbox" class="filled-in" id="queijo" name="queijo" />
                                 <span>Queijo ralado a gosto</span>
                             </label>
                         </td>
@@ -78,19 +88,40 @@
                     <tr>
                         <td>
                             <label>
-                                <input type="checkbox" class="filled-in" id="ovos" name="ovos"/>
+                                <input type="checkbox" class="filled-in" id="ovos" name="ovos" />
                                 <span>3 Ovos</span>
                             </label>
                         </td>
-                        <td>Sal</td>
+                        <td>
+                            <label>
+                                <input type="checkbox" class="filled-in" id="sal" name="sal" />
+                                <span>Sal</span>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Pimenta-do-reino a gosto</td>
-                        <td>Macarrão de sua escolha (espaguete, fusili,etc.)</td>
+                        <td>
+                            <label>
+                                <input type="checkbox" class="filled-in" id="pimenta" name="pimenta" />
+                                <span>Pimenta-do-reino a gosto</span>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="checkbox" class="filled-in" id="macarrao" name="macarrao" />
+                                <span>Macarrão de sua escolha (espaguete, fusili,etc.)</span>
+                            </label>
+
+                        </td>
                     </tr>
                     <tr>
-                        <td>Creme de leite se quiser dar um<br>
-                            toque diferente à receita</td>
+                        <td>
+                            <label>
+                                <input type="checkbox" class="filled-in" id="creme-leite" name="creme-leite" />
+                                <span>Creme de leite se quiser dar um<br>
+                                    toque diferente à receita</span>
+                            </label>
+                        </td>
                     </tr>
                 </tbody>
             </table>
