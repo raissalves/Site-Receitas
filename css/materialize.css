@@ -2412,6 +2412,7 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
   /* 2 */
 }
 
@@ -2510,6 +2511,7 @@ textarea {
  */
 [type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -2788,6 +2790,7 @@ video.responsive-video {
 .breadcrumb i.material-icons {
   display: inline-block;
   float: left;
+  display: inline-block;
   font-size: 24px;
 }
 
@@ -5717,6 +5720,7 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  mask-image: radial-gradient(circle, white 100%, black 100%);
 }
 
 .waves-input-wrapper {
@@ -5738,6 +5742,7 @@ body.keyboard-focused .dropdown-content li:focus {
   line-height: 2.5em;
   border-radius: 50%;
   -webkit-mask-image: none;
+  mask-image: none;
 }
 
 .waves-block {
@@ -6047,6 +6052,7 @@ body.keyboard-focused .dropdown-content li:focus {
   -webkit-transition: opacity .4s;
   transition: opacity .4s;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .materialboxed:hover:not(.active) {
@@ -7388,6 +7394,7 @@ input[type=range] + .thumb.active .value {
 
 input[type=range] {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
@@ -8356,13 +8363,13 @@ input[type=range]::-ms-thumb {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-transform-origin: 0% 50%;
-          transform-origin: 0% 50%;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 50% 100%;
 }
 
 .carousel.carousel-slider {
@@ -8385,7 +8392,7 @@ input[type=range]::-ms-thumb {
 .carousel.carousel-slider .carousel-item {
   width: 100%;
   height: 100%;
-  min-height: 400px;
+  min-height: 500px;
   position: absolute;
   top: 0;
   left: 0;

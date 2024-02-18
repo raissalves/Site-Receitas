@@ -12,100 +12,223 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
-  <style>
-    .nav-wrapper li {
-      margin: 0 10px;
-    }
-  </style>
 
 </head>
 
 <body style="font-family: 'Montserrat';">
 
 
-  <div class="navbar-fixed">
-    <nav class="nav-fixed">
-      <div class="center-align orange lighten-4">
-        <a href="index.html"><img src="img/logo/chef.png" height="120px"></a>
-      </div>
 
-
-      <!--Dificuldade para centralizar na navbar, necessario para centralizar o texto tive que realizar um deslocamento trabalhando com coluna pois ele trabalha com grades-->
-
-      <div class="row orange">
-        <div class="col s9 offset-s3 ">
-          <div class="nav-wrapper orange ">
-            <ul id="nav-mobile" class=" left hide-on-med-and-down">
-              <li class="tab"><a href="../Site-Receitas/receitas/massas/massas-home.html">MASSAS</a></li>
-              <li class="tab"><a href="receitas/carnes/carnes-home.html">CARNES</a></li>
-              <li class="tab"><a href="receitas/aves/aves-home.html">AVES</a></li>
-              <li class="tab"><a href="receitas/sopas/sopas-home.html">SOPAS</a></li>
-              <li class="tab"><a href="receitas/bolos/bolos-home.html">BOLOS</a></li>
-              <li class="tab"><a href="receitas/sobremesas/sobremesas-home.html">SOBREMESAS</a></li>
-              <li class="tab"><a href="receitas/lanches/lanches-home.html">LANCHES</a></li>
-              <li class="tab"><a href="receitas/blog/blog.html">BLOG</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <div class="center-align orange lighten-4">
+    <a href="index.html"><img src="img/logo/chef.png" height="120px"></a>
   </div>
 
 
-  <div class="container row">
-    <div class="col s8 offset-s2">
-      <h3 style="text-align:center">Teste</h3>
+  <!--Dificuldade para centralizar na navbar, necessario para centralizar o texto tive que realizar um deslocamento trabalhando com coluna pois ele trabalha com grades-->
 
-      <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-          <a class="btn waves-effect white grey-text darken-text-2">button</a>
-        </div>
-        <div class="carousel-item" href="#one!">
-          <img src="../Site-Receitas/img/receitas/Massas/carbonara/carbonara.png">
-        </div>
-        <div class="carousel-item" href="#two!">
-          <img src="../Site-Receitas/img/receitas/Carnes/hamburguer/hamburguer.png">
-        </div>
-        <div class="carousel-item" href="#three!">
-          <img src="../Site-Receitas/img/receitas/Lanches/coxinha/coxinha.png">
-        </div>
-        <div class="carousel-item" href="#four!">
-          <img src="../Site-Receitas/img/receitas/Sobremesa/brigadeiro/brigadeiro.png">
-        </div>
-        <div class="carousel-item" href="#five!">
-          <img src="../Site-Receitas/img/receitas/Aves/chester/chester.png">
+  <nav class="nav-extended">
+    <div class="row orange">
+      <div class="col s9 offset-s3 ">
+        <div class="nav-wrapper orange ">
+          <ul id="nav-mobile" class=" left hide-on-med-and-down">
+            <li class="tab"><a href="../Site-Receitas/receitas/massas/massas-home.html">MASSAS</a></li>
+            <li class="tab"><a href="receitas/carnes/carnes-home.html">CARNES</a></li>
+            <li class="tab"><a href="receitas/aves/aves-home.html">AVES</a></li>
+            <li class="tab"><a href="receitas/sopas/sopas-home.html">SOPAS</a></li>
+            <li class="tab"><a href="receitas/bolos/bolos-home.html">BOLOS</a></li>
+            <li class="tab"><a href="receitas/sobremesas/sobremesas-home.html">SOBREMESAS</a></li>
+            <li class="tab"><a href="receitas/lanches/lanches-home.html">LANCHES</a></li>
+            <li class="tab"><a href="receitas/blog/blog.html">BLOG</a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container row">
-    <div class="col s8 offset-s2">
-      <div class="">
-        <div class="row valign-wrapper">
-          <div class="col s2">
-            <img src="../Site-Receitas/img/receitas/Massas/alho e oleo/alho e oleo1.png" alt=""
-              class="circle responsive-img" width="50px" height="50px">
-            <span class="black-text text-align center">
-              MASSAS
-            </span>
-          </div>
-        </div>
+  </nav>
+  <div class="container">
+    
+    <div class="carousel carousel-slider center">
+    <div class="carousel-item black white-text flow-text" href="receitas/massas/massas-home.html">
+      <img src="../Site-Receitas/img/receitas/Massas/carbonara/carbonara.png" height="600px">
+      <div class="carousel-text">
+        <h4>Macarrão à carbonara<br>
+          <p class="white-text">_</p>
+        </h4>
+      </div>
+    </div>
+    <div class="carousel-item black white-text flow-text" href="/receitas/carnes/carnes-home.html">
+      <img src="../Site-Receitas/img/receitas/Carnes/hamburguer/hamburguer.png" height="600px">
+      <div class="carousel-text">
+        <h4>Hambúrguer caseiro<br>
+          <p class="white-text">_</p>
+        </h4>
+      </div>
+    </div>
+    <div class="carousel-item black white-text flow-text" href="/receitas/lanches/lanches-home.html">
+      <img src="../Site-Receitas/img/receitas/Lanches/coxinha/coxinha.png" height="600px">
+      <div class="carousel-text">
+        <h4>Coxinha de Frango<br>
+          <p class="white-text">_</p>
+        </h4>
+      </div>
+    </div>
+    <div class="carousel-item black white-text flow-text" href="/receitas/sobremesas/sobremesas-home.html">
+      <img src="../Site-Receitas/img/receitas/Sobremesa/brigadeiro/brigadeiro.png" height="600px">
+      <div class="carousel-text">
+        <h4>Brigadeiro<br>
+          <p class="white-text">_</p>
+        </h4>
+      </div>
+    </div>
+    <div class="carousel-item black white-text flow-text" href="/receitas/aves/aves-home.html">
+      <img src="../Site-Receitas/img/receitas/Aves/chester/chester.png" height="600px">
+      <div class="carousel-text">
+        <h4>Chester Assado<br>
+          <p class="white-text">_</p>
+        </h4>
       </div>
     </div>
   </div>
+  </div>
 
-  https://panelinha.com.br
-  https://comidinhasdochef.com
-  <br>
-  <br>
-  <br>
   <br>
   <br>
   <br>
 
+  <div class="row">
+
+    <h5 class="header center"><img src="../../../img/icones/linha.png" width="320px" height="2px"> Navege por categoria
+      <img src="../../../img/icones/linha.png" width="320px" height="2px">
+    </h5><br>
+    <div class="col s9 offset-s2">
+      <div class="carousel header center">
+        <a class="carousel-item" href="../Site-Receitas/receitas/bolos/bolos-home.html">
+          <img src="../Site-Receitas/img/home/bolo.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Bolos
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/carnes/carnes-home.html">
+          <img src="../Site-Receitas/img/home/carne.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Carnes
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/aves/aves-home.html">
+          <img src="../Site-Receitas/img/home/frango.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Frangos
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/lanches/lanches-home.html">
+          <img src="../Site-Receitas/img/home/lanche.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Lanches
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/massas/massas-home.html">
+          <img src="../Site-Receitas/img/home/massa.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Massas
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/sobremesas/sobremesas-home.html">
+          <img src="../Site-Receitas/img/home/sobre.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Sobremesas
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/sopas/sopas-home.html">
+          <img src="../Site-Receitas/img/home/sopa.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Sopas
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/bolos/bolos-home.html">
+          <img src="../Site-Receitas/img/home/bolo.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Bolos
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/carnes/carnes-home.html">
+          <img src="../Site-Receitas/img/home/carne.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Carnes
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/aves/aves-home.html">
+          <img src="../Site-Receitas/img/home/frango.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Frangos
+            </h6>
+          </div>
+        </a>
+        <a class="carousel-item" href="../Site-Receitas/receitas/lanches/lanches-home.html">
+          <img src="../Site-Receitas/img/home/lanche.jpg" class="circle responsive-img" width="150px" height="150px">
+          <div class="carousel-text-circular">
+            <h6>
+              Lanches
+            </h6>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
+
+
+  <footer class="page-footer orange lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s2">
+          <div class="center-align lighten-4">
+            <img src="../Site-Receitas/img/logo/chef.png" height="80px"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright orange">
+      <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
 
 
   <!--  Scripts-->
