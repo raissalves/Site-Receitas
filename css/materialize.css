@@ -5611,7 +5611,7 @@ button.btn-floating {
 }
 
 body.keyboard-focused .dropdown-content li:focus {
-  background-color: #ffff00;
+  background-color: #dadada;
 }
 
 .input-field.col .dropdown-content [type="checkbox"] + label {
