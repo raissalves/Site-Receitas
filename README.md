@@ -11,19 +11,19 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - JavaScript
 - Materialize
 
-##Funcionalidades
+## Funcionalidades
 Navegação Intuitiva: O site possui uma interface amigável e fácil de navegar, permitindo que os usuários encontrem rapidamente as receitas que procuram.
 Receitas Detalhadas: Cada receita inclui uma lista completa de ingredientes, instruções passo a passo e informações adicionais, como tempo de preparo e dicas úteis.
 Imagens Apetitosas: As receitas são acompanhadas de fotos de alta qualidade dos pratos finalizados, para inspirar os usuários a cozinhar.
 Responsividade: O site é responsivo e se adapta a diferentes dispositivos, como computadores, tablets e smartphones, garantindo uma ótima experiência de usuário em qualquer tela.
 
-##Licença
+## Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para mais detalhes.
 
-##Agradecimentos
+## Agradecimentos
 Agradecemos a todos que contribuíram para este projeto e à comunidade de código aberto por fornecer as ferramentas e recursos que tornaram isso possível.
 
 Esperamos que você aproveite o "Chef em Casa" e que ele te inspire a cozinhar deliciosas refeições em casa!
 
-#O site está totalmente hospedado para acesso 
+O site está totalmente hospedado para acesso 
 https://chefeemcasa.com.br
