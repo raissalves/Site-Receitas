@@ -1,4 +1,4 @@
-#Chef em Casa
+# Chef em Casa
 
 ## Descrição do Projeto
 "Chef em Casa" é um site de receitas criado com o propositos academicos, para ajudar pessoas que desejam cozinhar suas próprias refeições em casa. O site oferece uma variedade de receitas que os usuários podem escolher.
